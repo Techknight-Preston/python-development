@@ -1,14 +1,13 @@
 
----
 
-## Python Week 5 - Modules
+# Python Week 6 - Error Handling
 
-### Assignment Files
+## Assignment Files
 
-- `password_generator.py`: Uses Python's random and string modules to generate random passwords of different lengths.
-- `helpers.py`: Contains reusable functions for calculating the number of tables needed and generating welcome messages.
-- `main.py`: Imports the helpers module and uses its functions to display welcome messages and calculate tables.
+- `safe_tools.py`: Contains three functions that safely handle division, number conversion, and dictionary lookups using try and except.
 
-### Module Reflection
+- `README.md`: Provides a description of the assignment files and explains the use of exception handling.
 
-The hardest part was understanding how the `if __name__ == "__main__":` statement works. I learned that it allows code to run when a module is executed directly while preventing that code from running automatically when the module is imported.
+## Reflection
+
+An if statement cannot catch "abc" on its own because the problem occurs when Python tries to convert the text into an integer. The int() function raises a ValueError, which is handled using try and except.
