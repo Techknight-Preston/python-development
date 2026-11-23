@@ -1,26 +1,14 @@
 
-# python-development
-
-## Python Week 3 - Grade Reporter & Bug Hunt
-
-### Assignment Files
-
-- `grade_reporter.py`: Uses loops and conditional statements to assign grades, count passes and failures, and calculate the average score.
-- `bug_hunt.py`: Demonstrates identifying and fixing three bugs in a while loop to calculate the sum of numbers from 1 to 5.
-
-### Bug Hunt Reflection
-
-The hardest bug to identify was the incorrect while-loop condition because it did not produce an error message. The program could run but return 10 instead of the expected 15. I knew something was wrong because the number 5 was not being included in the calculation. Changing `< 5` to `<= 5` corrected the problem.
-
 ---
 
-## Python Week 4 - Functions
+## Python Week 5 - Modules
 
 ### Assignment Files
 
-- `welcome.py`: Uses a welcome() function to generate greetings for different people without repeating code.
-- `toolbox.py`: Contains three reusable functions for doubling numbers, checking pass scores, and generating greetings with optional greeting messages.
+- `password_generator.py`: Uses Python's random and string modules to generate random passwords of different lengths.
+- `helpers.py`: Contains reusable functions for calculating the number of tables needed and generating welcome messages.
+- `main.py`: Imports the helpers module and uses its functions to display welcome messages and calculate tables.
 
-### Function Reflection
+### Module Reflection
 
-The hardest function to write was greet() because it had to accept an optional greeting while still using "Hello" by default. I understood that a default parameter allows the function to work with either one or two arguments.
+The hardest part was understanding how the `if __name__ == "__main__":` statement works. I learned that it allows code to run when a module is executed directly while preventing that code from running automatically when the module is imported.
